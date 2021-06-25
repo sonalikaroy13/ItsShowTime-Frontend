@@ -1,7 +1,7 @@
 .custom-bg {
     height: 600px;
     background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-size: 100% 100% !important;
     /* background-position: right -200px top !important; */
 }
 
