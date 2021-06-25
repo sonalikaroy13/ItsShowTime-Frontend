@@ -5,9 +5,9 @@ export const instanceTMD = axios.create({
 });
 
 export const instanceBE = axios.create({
-    baseURL: `https://itsshowtimebackend.pythonanywhere.com/`
+    baseURL: `https://itsshowtimebackend.pythonanywhere.com/auth/`
 });
 
 export const instanceREFRESH = axios.create({
-    baseURL: `https://itsshowtimebackend.pythonanywhere.com/`
+    baseURL: `https://itsshowtimebackend.pythonanywhere.com/auth/`
 });
