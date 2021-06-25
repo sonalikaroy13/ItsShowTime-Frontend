@@ -37,7 +37,7 @@ const SignUpForm = () => {
 
     await axios({
       method: 'POST',
-      url: 'http://127.0.0.1:8000/auth/users/',
+      url: 'https://itsshowtimebackend.pythonanywhere.com/auth/users/',
       headers: {'Content-Type': 'application/json'},
       data: formData
     }).then(() => {

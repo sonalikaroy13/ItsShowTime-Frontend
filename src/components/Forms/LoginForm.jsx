@@ -33,7 +33,7 @@ const LoginForm = ({setLoginDetail}) => {
 
     await axios({
       method: 'POST',
-      url: 'http://127.0.0.1:8000/auth/jwt/create/',
+      url: 'https://itsshowtimebackend.pythonanywhere.com/auth/jwt/create/',
       headers: {'Content-Type': 'application/json'},
       data: formData
     }).then((response) => {
